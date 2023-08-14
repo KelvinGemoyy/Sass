@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"latihan2.css"}
+{"version":3,"sources":["../Sass/latihan2.scss","latihan2.css"],"names":[],"mappings":"AAYA;EATI,SAAA;EACA,UAAA;EACA,gBAAA;ACDJ;ADGI;EACI,qBAAA;ACDR;ADQI;EACI,yBAAA;EACA,cAAA;ACNR;ADQQ;EACI,kBAAA;ACNZ;;ADWA;EAtBI,SAAA;EACA,UAAA;EACA,gBAAA;ACeJ;ADbI;EACI,qBAAA;ACeR;ADII;EACI,cAAA;EACA,wBAAA;ACFR;ADGQ;EACI,YAAA;EACA,qBAAA;ACDZ","file":"latihan2.css"}

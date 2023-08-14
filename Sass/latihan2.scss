@@ -1,0 +1,39 @@
+// Mixin
+// Simple Mixin
+@mixin inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+}
+
+.header ul {
+    @include inline-list();
+    
+    li {
+        background-color:crimson;
+        padding: 0.7em;
+        
+        a {
+            color: greenyellow;
+        }
+    }
+}
+
+.footer ul {
+    @include inline-list();
+    li {
+        padding: 0.4em;
+        background-color: salmon;
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+}
+
+// Argument Pada Mixin
