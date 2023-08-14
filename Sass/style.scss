@@ -1,0 +1,23 @@
+// Css Variable
+:root {
+    --primary-color: gold;
+    --secondary-color:salmon;
+    --text-color: crimson;
+}
+
+ body {
+    background-color: var(--primary-color);
+ }
+
+ h1 {
+    color: var(--text-color);
+ }
+
+ // Sass Variable
+ $warna-utama: blue;
+ $warna-cadangan:red;
+ $warna-lain:green;
+
+ body {
+    color: $warna-utama;
+ }
