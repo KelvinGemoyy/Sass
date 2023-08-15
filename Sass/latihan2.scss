@@ -1,7 +1,16 @@
-@import 'mixin';
-@import 'header';
-@import 'container';
-@import 'footer';
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/container';
+// @import 'modules/footer';
+
+// Keyword @import sudah tidak relevan lagi untuk di gunakan,oleh karena itu sekarang kita menggunakan keyword @use.
+
+@use 'modules/mixin';
+@use 'modules/header';
+@use 'modules/container';
+@use 'modules/footer';
+
+
 
 
 
