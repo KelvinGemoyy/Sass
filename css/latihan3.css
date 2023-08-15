@@ -1,1 +1,14 @@
-/*# sourceMappingURL=latihan3.css.map */
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 200px 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 80px 5px solid white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}/*# sourceMappingURL=latihan3.css.map */

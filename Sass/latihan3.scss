@@ -1,1 +1,18 @@
 // if
+@mixin profile-pic($size, $circle: false) {
+    width: $size;
+    height: $size;
+    border: $size 5px solid white;
+    box-shadow: 1px 1px 3px rgba($color: #000, $alpha: 0.3);
+
+    @if $circle {
+        border-radius: 50%;
+    }
+}
+
+.square-profile {
+    @include profile-pic(200px, $circle: false )
+}
+.circle-profile {
+    @include profile-pic(80px, $circle: true )
+}
