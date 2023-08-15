@@ -44,7 +44,7 @@
     flex-direction: $direction;
 }
 .container {
-    @include flex-box(row-reverse);
+    @include flex-box(row-reverse, space-between);
 
     width: 600px;
     height: 400px;
