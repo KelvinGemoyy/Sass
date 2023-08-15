@@ -1,48 +1,10 @@
 @import 'mixin';
 @import 'header';
+@import 'container';
 @import 'footer';
 
 
 
-.header ul {
-    @include inline-list();
-    
-    li {
-        background-color:crimson;
-        padding: 0.7em;
-        
-        a {
-            color: greenyellow;
-        }
-    }
-}
 
-.footer ul {
-    @include inline-list();
-    li {
-        padding: 0.4em;
-        background-color: salmon;
-        a {
-            color: white;
-            text-decoration: none;
 
-        }
-    }
-}
 
-.container {
-    @include flex-box(row-reverse, space-between);
-
-    width: 600px;
-    height: 400px;
-    background-color: #b32424;
-
-    .box {
-        width: 60px;
-        height: 60px;
-        background-color: #bada55;
-        text-align: center;
-        line-height: 60px;
-
-    }
-}
