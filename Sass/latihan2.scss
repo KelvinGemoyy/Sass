@@ -1,14 +1,8 @@
-// Mixin
-// Simple Mixin
-@mixin inline-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+@import 'mixin';
+@import 'header';
+@import 'footer';
 
-    li {
-        display: inline-block;
-    }
-}
+
 
 .header ul {
     @include inline-list();
@@ -36,13 +30,6 @@
     }
 }
 
-// Argument Pada Mixin
-@mixin flex-box($direction: row, $space: center) {
-    display: flex;
-    justify-content:$space;
-    align-items: center;
-    flex-direction: $direction;
-}
 .container {
     @include flex-box(row-reverse, space-between);
 

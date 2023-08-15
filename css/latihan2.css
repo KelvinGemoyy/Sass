@@ -1,19 +1,18 @@
-.header ul {
+@im .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  li {
+    display: inline-block;
+  }
+  li {
+    background-color: crimson;
+    padding: 0.7em;
+  }
+  li a {
+    color: greenyellow;
+  }
 }
-.header ul li {
-  display: inline-block;
-}
-.header ul li {
-  background-color: crimson;
-  padding: 0.7em;
-}
-.header ul li a {
-  color: greenyellow;
-}
-
 .footer ul {
   margin: 0;
   padding: 0;
@@ -33,12 +32,12 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
   width: 600px;
   height: 400px;
-  background-color: #eaeaea;
+  background-color: #b32424;
 }
 .container .box {
   width: 60px;
