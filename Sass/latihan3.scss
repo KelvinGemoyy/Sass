@@ -67,5 +67,16 @@ $dark-text: #ddd;
 }
 
 // for
-
+ $color: blue;
+.gradient {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @for $i from 1 to 11 {
+        li:nth-child(#{$i}) {
+            padding:4px;
+            background-color:lighten($color, $i * 2%);
+        }
+    }
+}
 

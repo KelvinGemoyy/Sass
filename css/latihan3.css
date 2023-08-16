@@ -30,4 +30,50 @@ body {
   border-style: solid;
   border-width: 1em;
   border-left-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #0a0aff;
+}
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #1414ff;
+}
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #1f1fff;
+}
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #2929ff;
+}
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #3333ff;
+}
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #3d3dff;
+}
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #4747ff;
+}
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #5252ff;
+}
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #5c5cff;
+}
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: #6666ff;
 }/*# sourceMappingURL=latihan3.css.map */
