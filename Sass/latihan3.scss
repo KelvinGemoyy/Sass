@@ -50,12 +50,22 @@ $dark-text: #ddd;
     background-color: transparent;
     border-style: solid;
     border-width: $size / 2;
+    @if $direction == up {
+        border-bottom-color: lightblue;
+    } @else if $direction == right {
+        border-left-color: $color;
+    } @else if $direction == down {
+        border-top-color: $color;
+    } @else {
+        border-right-color: $color;
+    }
 }
-.triangle {
-    border-right-color: black;
-    border-left-color: #ddd;
-    border-right-color: salmon;
-    border-bottom-color: lightblue;
 
+
+.right {
+    @include triangle(2em,black , right);
 }
+
+// for
+
 

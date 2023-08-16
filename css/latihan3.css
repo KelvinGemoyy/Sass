@@ -22,9 +22,12 @@ body {
   color: #ddd;
 }
 
-.triangle {
-  border-right-color: black;
-  border-left-color: #ddd;
-  border-right-color: salmon;
-  border-bottom-color: lightblue;
+.right {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
 }/*# sourceMappingURL=latihan3.css.map */
