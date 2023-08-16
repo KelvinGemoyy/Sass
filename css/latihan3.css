@@ -39,41 +39,41 @@ body {
 }
 .gradient li:nth-child(1) {
   padding: 4px;
-  background-color: #0a0aff;
+  background-color: #0f0fff;
 }
 .gradient li:nth-child(2) {
   padding: 4px;
-  background-color: #1414ff;
+  background-color: #1f1fff;
 }
 .gradient li:nth-child(3) {
   padding: 4px;
-  background-color: #1f1fff;
+  background-color: #2e2eff;
 }
 .gradient li:nth-child(4) {
   padding: 4px;
-  background-color: #2929ff;
+  background-color: #3d3dff;
 }
 .gradient li:nth-child(5) {
   padding: 4px;
-  background-color: #3333ff;
+  background-color: #4d4dff;
 }
 .gradient li:nth-child(6) {
   padding: 4px;
-  background-color: #3d3dff;
+  background-color: #5c5cff;
 }
 .gradient li:nth-child(7) {
   padding: 4px;
-  background-color: #4747ff;
+  background-color: #6b6bff;
 }
 .gradient li:nth-child(8) {
   padding: 4px;
-  background-color: #5252ff;
+  background-color: #7a7aff;
 }
 .gradient li:nth-child(9) {
   padding: 4px;
-  background-color: #5c5cff;
+  background-color: #8a8aff;
 }
 .gradient li:nth-child(10) {
   padding: 4px;
-  background-color: #6666ff;
+  background-color: #9999ff;
 }/*# sourceMappingURL=latihan3.css.map */

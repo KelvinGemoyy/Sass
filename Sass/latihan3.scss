@@ -51,7 +51,7 @@ $dark-text: #ddd;
     border-style: solid;
     border-width: $size / 2;
     @if $direction == up {
-        border-bottom-color: lightblue;
+        border-bottom-color: $color;
     } @else if $direction == right {
         border-left-color: $color;
     } @else if $direction == down {
@@ -75,8 +75,11 @@ $dark-text: #ddd;
     @for $i from 1 to 11 {
         li:nth-child(#{$i}) {
             padding:4px;
-            background-color:lighten($color, $i * 2%);
+            background-color:lighten($color, $i * 3%);
         }
     }
 }
+
+
+// While
 
