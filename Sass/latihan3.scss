@@ -1,3 +1,7 @@
+body {
+    min-height: 1000px;
+}
+
 // if
 @mixin profile-pic($size, $circle: false) {
     width: $size;
@@ -13,6 +17,45 @@
 .square-profile {
     @include profile-pic(200px, $circle: false )
 }
+
 .circle-profile {
     @include profile-pic(80px, $circle: true )
 }
+
+// else
+$light-bg: #eaeaea;
+$light-text: #333;
+$dark-bg: #999;
+$dark-text: #ddd;
+
+@mixin color-mode ($light-mode: true ) {
+    @if $light-mode {
+        background-color: $light-bg;
+        color: $light-text;
+    } @else {
+        background-color: $dark-bg;
+        color: $dark-text;
+    }
+}
+
+.nav {
+    @include color-mode($light-mode: false);
+}
+
+// else if
+@mixin triangle($size, $color, $direction) {
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    background-color: transparent;
+    border-style: solid;
+    border-width: $size / 2;
+}
+.triangle {
+    border-right-color: black;
+    border-left-color: #ddd;
+    border-right-color: salmon;
+    border-bottom-color: lightblue;
+
+}
+

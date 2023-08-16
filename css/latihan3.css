@@ -1,3 +1,7 @@
+body {
+  min-height: 1000px;
+}
+
 .square-profile {
   width: 200px;
   height: 200px;
@@ -11,4 +15,16 @@
   border: 80px 5px solid white;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
+}
+
+.nav {
+  background-color: #999;
+  color: #ddd;
+}
+
+.triangle {
+  border-right-color: black;
+  border-left-color: #ddd;
+  border-right-color: salmon;
+  border-bottom-color: lightblue;
 }/*# sourceMappingURL=latihan3.css.map */
